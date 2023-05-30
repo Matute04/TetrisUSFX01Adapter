@@ -145,10 +145,14 @@ void ABoard::NewPiece()  // Crear una nueva pieza
     CurrentPiece = GetWorld()->SpawnActor<APiece>(Location, Rotation);   // Crear la nueva pieza
     if (CurrentPiece->Index > 7)
     {
-        GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Green, TEXT("Se genero una PIEZA LOCA"));
-        AdapterPieza = NewObject<UAdaptadorMovimientoAleatorioCA>(CurrentPiece);
-        AdapterPieza->SetLimitesMovimiento(0.0f, 10.0f, 10.0f, 0.5);
-        AdapterPieza->RegisterComponent();
+        int aleatorio = FMath::RandRange(0, 10);
+        if (aleatorio < 3)
+        {
+            GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Green, TEXT("Se genero una PIEZA LOCA"));
+            AdapterPieza = NewObject<UAdaptadorMovimientoAleatorioCA>(CurrentPiece);
+            AdapterPieza->SetLimitesMovimiento(0.0f, 10.0f, 10.0f, 0.5);
+            AdapterPieza->RegisterComponent();
+        }
     }
     bGameOver = CheckGameOver();  // Comprobar si el juego ha terminado
     if (bGameOver)   

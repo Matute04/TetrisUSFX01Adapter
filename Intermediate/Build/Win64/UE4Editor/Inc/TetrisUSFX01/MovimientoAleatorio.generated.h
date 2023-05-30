@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define TETRISUSFX01_MovimientoAleatorio_generated_h
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_SPARSE_DATA
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_STANDARD_CONSTRUCTORS \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_SPARSE_DATA
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	TETRISUSFX01_API UMovimientoAleatorio(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMovimientoAleatorio) \
@@ -29,7 +29,7 @@ private: \
 public:
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_ENHANCED_CONSTRUCTORS \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	TETRISUSFX01_API UMovimientoAleatorio(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -42,7 +42,7 @@ public: \
 	DEFINE_ABSTRACT_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMovimientoAleatorio)
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_UINTERFACE_BODY() \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUMovimientoAleatorio(); \
 	friend struct Z_Construct_UClass_UMovimientoAleatorio_Statics; \
@@ -51,22 +51,22 @@ public: \
 	DECLARE_SERIALIZER(UMovimientoAleatorio)
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_BODY_LEGACY \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_BODY_LEGACY \
 		PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_UINTERFACE_BODY() \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_STANDARD_CONSTRUCTORS \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_UINTERFACE_BODY() \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_STANDARD_CONSTRUCTORS \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_BODY \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_UINTERFACE_BODY() \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_ENHANCED_CONSTRUCTORS \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_GENERATED_UINTERFACE_BODY() \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~IMovimientoAleatorio() {} \
 public: \
@@ -75,7 +75,7 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE \
 protected: \
 	virtual ~IMovimientoAleatorio() {} \
 public: \
@@ -84,23 +84,23 @@ public: \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_10_PROLOG
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_21_GENERATED_BODY_LEGACY \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_10_PROLOG
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_SPARSE_DATA \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_SPARSE_DATA \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_21_GENERATED_BODY \
+#define TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_SPARSE_DATA \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_SPARSE_DATA \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -108,7 +108,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> TETRISUSFX01_API UClass* StaticClass<class UMovimientoAleatorio>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID TetrisUSFX_PARCIAL_master_Source_TetrisUSFX01_MovimientoAleatorio_h
+#define CURRENT_FILE_ID TetrisUSFX04Adapter_master_Source_TetrisUSFX01_MovimientoAleatorio_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
